@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\PageTransition.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\PageTransition.g.cs
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\PageTransition_MarkupCompile.cache
+C:\Users\admin\source\repos\TraSua\PageTransition\obj\Debug\PageTransition_MarkupCompile.lref

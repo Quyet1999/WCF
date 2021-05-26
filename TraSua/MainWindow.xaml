@@ -1,0 +1,93 @@
+﻿<Window x:Class="TraSua.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TraSua"
+        mc:Ignorable="d"
+        
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="15"
+        TextElement.FontFamily="Arial"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        
+        xmlns:UC="clr-namespace:TraSua.MyUserControl"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Height="1040" Width="1942" Title="Home"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <UC:ControlBar></UC:ControlBar>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="#004d75">
+                <StackPanel>
+                    <Button
+                        Name="btnHome"
+                        Click="btnHome_Click"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                        Height="50"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Trang chủ" />
+                    <Button
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                        Height="50"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Đơn online" />
+                    <Button
+                        Height="50"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Hóa đơn" />
+                    <Button
+                        Height="50"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Menu" />
+                    <Button
+                        Height="50"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Loại đồ uống" />
+                    <Button
+                        Height="50"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Thống kê" />
+                    <Button
+                        Height="50"
+  Style="{StaticResource MaterialDesignRaisedAccentButton}"
+  ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+  materialDesign:RippleAssist.IsDisabled="True"
+  Content="Tài khoản" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1">
+                <WrapPanel Name="WpnMain">
+                    
+                </WrapPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

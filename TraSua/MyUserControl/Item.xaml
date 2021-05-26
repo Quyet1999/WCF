@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="TraSua.MyUserControl.Item"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TraSua.MyUserControl"
+             mc:Ignorable="d" 
+             
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Name="ucControlBar"
+             d:DesignHeight="290" d:DesignWidth="215">
+    <Grid Background="#70a8aa">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="White">
+            <Image >
+
+            </Image>
+        </Grid>
+        <Grid Grid.Row="1" Background="#70a8aa">
+            <TextBlock
+                  Style="{StaticResource MaterialDesignSubtitle2TextBlock}"
+                  Margin="10,0,10.2,-0.6" HorizontalAlignment="Center" Width="195" TextAlignment="Center" Text="Trà sữa trân châu đường đen" />
+
+        </Grid>
+        <Grid Grid.Row="2" Background="#70a8aa">
+            <TextBlock
+                  Style="{StaticResource MaterialDesignSubtitle2TextBlock}"
+                  Margin="10,0,10.2,-0.6" HorizontalAlignment="Center" Width="195" TextAlignment="Center" Text="25.000đ" />
+        </Grid>
+        <Grid Grid.Row="3" Margin="0 0 0 2" Background="#70a8aa">
+            <Button
+              Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                Width="100"
+              ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+              materialDesign:RippleAssist.IsDisabled="True"
+              Content="Thêm" Height="Auto" Margin="58,0,57.2,0.4" VerticalAlignment="Center" HorizontalAlignment="Center" />        
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+C:\Users\admin\source\repos\TraSua\TrasuaService\obj\Debug\TrasuaService.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TraSua\TrasuaService\obj\Debug\TrasuaService.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\TrasuaService.dll.config
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\TrasuaService.dll
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\TrasuaService.pdb
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\EntityFramework.dll
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\EntityFramework.xml
+C:\Users\admin\source\repos\TraSua\TrasuaService\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\TraSua\TrasuaService\obj\Debug\TrasuaService.csproj.CopyComplete
+C:\Users\admin\source\repos\TraSua\TrasuaService\obj\Debug\TrasuaService.dll
+C:\Users\admin\source\repos\TraSua\TrasuaService\obj\Debug\TrasuaService.pdb

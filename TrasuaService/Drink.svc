@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TrasuaService.Drink" CodeBehind="Drink.svc.cs" %>
